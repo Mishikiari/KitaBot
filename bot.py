@@ -9,7 +9,7 @@ API_KEY = os.getenv('API_KEY')
 bot = telebot.TeleBot(API_KEY)
 sadD = os.getenv('sakD')
 
-@bot.message_handler(commands=['daily'])
+@bot.message_handler(commands=['random'])
 def daily(message):
   fSak=getSakuga()
   
