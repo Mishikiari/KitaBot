@@ -9,7 +9,6 @@ API_KEY = os.getenv('API_KEY')
 bot = telebot.TeleBot(API_KEY)
 sadD = os.getenv('sakD')
 
-
 @bot.message_handler(commands=['daily'])
 def daily(message):
   fSak=getSakuga()
@@ -19,6 +18,6 @@ def daily(message):
 
 @bot.message_handler(commands=['info'])
 def info(message):
-  bot.send_message(message.chat.id, "https://github.com/Mishikiari/SakBot")
+  bot.send_message(message.chat.id, "https://github.com/Mishikiari/KitaBot")
 
 bot.polling()
