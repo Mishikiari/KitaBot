@@ -1,4 +1,4 @@
-import bs4, requests, webbrowser
+import bs4, requests
 
 def getSakuga():
   url = "https://www.sakugabooru.com/post/random"
