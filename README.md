@@ -1,5 +1,5 @@
 # KitaBot
-For fun telegram bot to share sakuga from sakugabooru. Not hosted yet. 
+For fun telegram bot to share sakuga from sakugabooru. Seems hosted. 
 
 Chat: https://t.me/sakmad_bot
 
